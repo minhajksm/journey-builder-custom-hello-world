@@ -15,7 +15,7 @@ var app = express();
 // Register configs for the environments where the app functions
 // , these can be stored in a separate file using a module like config
 var APIKeys = {
-    appId           : '565bf859-bde2-4959-a367-e680e81e8381,
+    appId           : '565bf859-bde2-4959-a367-e680e81e8381',
     clientId        : 's1hmhb7e0mpsvrav5dk4n91h',
     clientSecret    : 'z2yK1gppOjyTTwYpTghl1YRl',
     appSignature    : 'rejgljka430c5bzdbrogaskxqvvdlq2pkzlxixomizudnrgesm4wuuzxc10zimnfcrbikio0gmnxue3naptkesrkpjnb4fdqrpjjlq3pv3iqynqyub12qlpmdfsaeqldyq1tbze3e3thpk5bjyeu4mextxp0ef41rhc5e1vs1bomhrm4rtmu4u2myqkq30yly3c0pxnlpmgmlb4xiq5jcsyjyuoq5yedivzsysylfkiqf5ksxjmhzz4ztedzzql',
