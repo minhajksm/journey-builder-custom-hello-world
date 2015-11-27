@@ -2,7 +2,7 @@ define([], function(){
     return {
         "icon": "images/jb-icon.jpg",
         "iconSmall": "images/jb-icon.jpg", 
-        "key": "CustomActivity-minhaj",
+        "key": "CustomActivity-minhaj-test1",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
             "en-US": {        
