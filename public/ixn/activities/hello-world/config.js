@@ -24,7 +24,7 @@ define([], function(){
             "timeout": 3000
 		},
         "save": {
-            "uri": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/save/",
+            "uri": "https://jbcustom.herokuapp.com/public/ixn/activities/hello-world/save/",
 			"verb": "POST",
 			"body": "",
             "format": "json",
@@ -32,7 +32,7 @@ define([], function(){
             "timeout": 3000
         },
         "publish": {
-            "uri": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/publish/",
+            "uri": "https://jbcustom.herokuapp.com/public/ixn/activities/hello-world/publish/",
             "verb": "POST",
 			"body": "",
             "format": "json",
@@ -40,7 +40,7 @@ define([], function(){
             "timeout": 3000
         },
         "validate": {
-            "uri": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/validate/",
+            "uri": "https://jbcustom.herokuapp.com/public/ixn/activities/hello-world/validate/",
             "verb": "POST",
 			"body": "",
             "format": "json",
@@ -49,7 +49,7 @@ define([], function(){
         },
 
         "edit": {
-            "uri": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/",
+            "uri": "https://jbcustom.herokuapp.com/public/ixn/activities/hello-world/",
             "height": 400,
             "width": 500
         }
