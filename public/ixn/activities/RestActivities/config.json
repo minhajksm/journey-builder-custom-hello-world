@@ -16,19 +16,19 @@
        "execute": {
            "inArguments": [],
            "outArguments": [],
-           "url": "URI/for/your/activity/execute"
+           "url": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/execute"
        }
    },
    "configurationArguments": {
-       "applicationExtensionKey": "jb-rest-activity-minhaj",
+       "applicationExtensionKey": "CustomRest-minhaj",
        "save": {
-           "url": "URI/for/your/activity/save"
+           "url": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/save"
        },
        "publish": {
-           "url": "URI/for/your/activity/publish"
+           "url": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/publish"
        },
        "validate": {
-           "url": "URI/for/your/activity/validate"
+           "url": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/validate"
        }
    },
    "wizardSteps": [
