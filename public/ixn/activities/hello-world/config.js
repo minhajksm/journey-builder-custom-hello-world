@@ -2,11 +2,11 @@ define([], function(){
     return {
         "icon": "images/jb-icon.jpg",
         "iconSmall": "images/jb-icon.jpg", 
-        "key": "jb-hello-world-activity-minhaj2",
+        "key": "jb-hello-world-activity-minhaj",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
             "en-US": {        
-                "name": "Hello World Activity 3",
+                "name": "CustomJB Activity",
                 "description": "Activity simply posts the data into an array for display on the App's home page."
             }
         },
