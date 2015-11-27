@@ -2,11 +2,11 @@ define([], function(){
     return {
         "icon": "images/jb-icon.jpg",
         "iconSmall": "images/jb-icon.jpg", 
-        "key": "jb-hello-world-activity-minhaj",
+        "key": "CustomActivity-minhaj",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
             "en-US": {        
-                "name": "CustomJB Activity asd",
+                "name": "CustomJB Activity",
                 "description": "Activity simply posts the data into an array for display on the App's home page."
             }
         },
@@ -14,7 +14,7 @@ define([], function(){
         "version": "1.0",
         "apiVersion": "1.0",
        "execute": {
-            "uri": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/execute/",
+            "uri": "https://jbcustom.herokuapp.com/public/ixn/activities/hello-world/execute/",
 			"inArguments": [],
 			"outArguments": [],
             "verb": "POST",
