@@ -1,8 +1,8 @@
 {
    "workflowApiVersion": "1.1",
    "metaData": {
-       "icon": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/images/jb-icon.png",
-       "iconSmall": "https://jbcustom.herokuapp.com/ixn/activities/hello-world/images/jb-icon.png",
+       "icon": "images/jb-icon.jpg",
+       "iconSmall": "images/jb-icon.jpg",
        "category": "message"
    },
    "type": "REST",
