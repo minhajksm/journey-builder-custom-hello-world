@@ -4,7 +4,7 @@ define([
     Postmonger
 ) {
     'use strict';
-    var app = module.exports = express();
+    var app = Postmonger.exports = express();
     app.use(Postmonger.cookieParser());
     var connection = new Postmonger.Session();
     var payload = {};
