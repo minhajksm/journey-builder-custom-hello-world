@@ -4,7 +4,7 @@ define([
     Postmonger
 ) {
     'use strict';
-
+    app.use(Postmonger.cookieParser());
     var connection = new Postmonger.Session();
     var payload = {};
     var lastStepEnabled = false;
