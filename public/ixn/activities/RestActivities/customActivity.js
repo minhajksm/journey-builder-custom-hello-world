@@ -3,9 +3,7 @@ define([
 ], function(
     Postmonger
 ) {
-    'use strict';
-    var app = Postmonger.exports = express();
-    app.use(Postmonger.cookieParser());
+    //'use strict';
     var connection = new Postmonger.Session();
     var payload = {};
     var lastStepEnabled = false;
