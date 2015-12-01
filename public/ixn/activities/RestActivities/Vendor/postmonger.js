@@ -1,8 +1,8 @@
 /*
- * Postmonger.js   version 0.0.12
+ * Postmonger.js   version 0.0.13
  * https://github.com/kevinparkerson/postmonger
  *
- * Copyright (c) 2012-2013 Kevin Parkerson
+ * Copyright (c) 2012-2014 Kevin Parkerson
  * Available via the MIT or new BSD license.
  * Further details and documentation:
  * http://kevinparkerson.github.com/postmonger/
@@ -24,8 +24,7 @@
     var _window = (root.addEventListener || root.attachEvent) ? root : window;
     var Connection, Events, Session;
 
-    //Set up Postmonger namespace, provide noConflict support, and
-    //version
+    //Set up Postmonger namespace, provide noConflict support, and version
     if (typeof(exports) !== 'undefined') {
         Postmonger = exports;
     } else {
@@ -35,7 +34,7 @@
         root.Postmonger = previous;
         return this;
     };
-    Postmonger.version = '0.0.12';
+    Postmonger.version = '0.0.13';
 
     //Create a new Postmonger Connection
     Connection = Postmonger.Connection = function(options){
@@ -76,8 +75,7 @@
         return self;
     };
 
-    //Postmonger.Events - Hacked together from Backbone.Events and two
-    //Underscore functions.
+    //Postmonger.Events - Hacked together from Backbone.Events and two Underscore functions.
     Events = Postmonger.Events = function(){
         var eventSplitter = /\s+/;
         var self = this;
