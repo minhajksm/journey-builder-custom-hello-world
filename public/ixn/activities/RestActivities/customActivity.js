@@ -1,5 +1,5 @@
 define([
-    'https://jbcustom.herokuapp.com/ixn/activities/hello-world/vendor/postmonger'
+    'Vendor/postmonger'
 ], function(
     Postmonger
 ) {
